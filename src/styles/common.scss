@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px/1.3 "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: $red;
+}
+
+#header {
+    text-align: center;
+    padding: 1em;
+}
+
+#main {
+    padding: 1em;
+
+}

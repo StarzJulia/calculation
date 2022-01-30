@@ -1,0 +1,38 @@
+{
+  "name": "calculation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarzJulia/calculation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarzJulia/calculation/issues"
+  },
+  "homepage": "https://github.com/StarzJulia/calculation#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "vue-loader": "^15.9.8",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
